@@ -10,6 +10,20 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        toWindows {
+            bindings = <&to 0>;
+            key-positions = <0 11>;
+        };
+
+        toMacOS {
+            bindings = <&to 3>;
+            key-positions = <36 49>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
