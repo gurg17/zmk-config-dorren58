@@ -53,11 +53,11 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&bt BT_CLR     &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                                          &trans     &trans    &trans    &trans    &trans    &trans
-&kp F1         &kp F2        &kp F3        &kp F4        &kp F5        &kp F6                                                &kp F7     &kp F8    &kp F9    &kp F10   &kp F11   &kp F12
-&trans         &trans        &trans        &trans        &trans        &trans                                                &kp CARET  &kp AMPS  &kp STAR  &kp PIPE  &kp PLUS  &kp GRAVE
-&kp BACKSPACE  &trans        &trans        &trans        &trans        &ext_power EP_TOG  &kp LEFT_BRACE    &kp RIGHT_BRACE  &trans     &trans    &trans    &trans    &trans    &trans
-                                           &trans        &trans        &trans             &trans            &trans           &trans     &trans    &trans
+&bt BT_CLR     &bt BT_SEL 0     &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                                          &trans     &trans    &trans    &trans    &trans    &trans
+&kp F1         &kp F2           &kp F3        &kp F4        &kp F5        &kp F6                                                &kp F7     &kp F8    &kp F9    &kp F10   &kp F11   &kp F12
+&kp TILDE      &kp EXCLAMATION  &kp AT_SIGN   &kp HASH      &kp DOLLAR    &kp PERCENT                                           &kp CARET  &kp AMPS  &kp STAR  &kp PIPE  &kp PLUS  &kp UNDER
+&kp BACKSPACE  &trans           &trans        &trans        &trans        &ext_power EP_TOG  &kp LEFT_BRACE    &kp RIGHT_BRACE  &trans     &trans    &trans    &trans    &trans    &kp DELETE
+                                              &trans        &trans        &trans             &trans            &trans           &trans     &trans    &trans
             >;
         };
 
@@ -70,11 +70,11 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&trans     &trans           &trans  &trans    &trans      &trans                                              &trans    &trans    &trans  &trans     &trans  &trans
-&kp GRAVE  &kp N1           &kp N2  &kp N3    &kp N4      &kp N5                                              &kp N6    &kp N7    &kp N8  &kp N9     &kp N0  &kp MINUS
-&kp TILDE  &kp EXCLAMATION  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT                                         &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans
-&trans     &trans           &trans  &trans    &trans      &trans       &kp LEFT_BRACKET    &kp RIGHT_BRACKET  &trans    &trans    &trans  &trans     &trans  &trans
-                                    &trans    &trans      &trans       &trans              &trans             &trans    &trans    &trans
+&trans     &trans        &trans        &trans        &trans        &trans                                         &trans          &trans           &trans        &trans        &trans        &trans
+&trans     &trans        &trans        &trans        &trans        &trans                                         &kp DOWN_ARROW  &kp LEFT_ARROW   &trans        &trans        &trans        &trans
+&kp GRAVE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                                         &kp NUMBER_6    &kp NUMBER_7     &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp MINUS
+&trans     &trans        &trans        &trans        &trans        &trans  &kp LEFT_BRACKET    &kp RIGHT_BRACKET  &kp UP_ARROW    &kp RIGHT_ARROW  &trans        &trans        &trans        &trans
+                                       &trans        &trans        &trans  &trans              &trans             &trans          &trans           &trans
             >;
         };
 
