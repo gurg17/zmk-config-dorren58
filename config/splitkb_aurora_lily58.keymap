@@ -14,7 +14,7 @@
         compatible = "zmk,combos";
 
         toggle_qwerty {
-            bindings = <&to 3>;
+            bindings = <&tog 3>;
             key-positions = <0 11>;
         };
 
