@@ -13,13 +13,13 @@
     combos {
         compatible = "zmk,combos";
 
-        toWindows {
-            bindings = <&to 0>;
+        toggle_qwerty {
+            bindings = <&to 3>;
             key-positions = <0 11>;
         };
 
-        toMacOS {
-            bindings = <&to 3>;
+        toggle_colemak {
+            bindings = <&tog 4>;
             key-positions = <36 49>;
         };
     };
@@ -53,11 +53,11 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3   &bt BT_SEL 4                                          &trans     &trans    &trans    &trans    &trans    &trans
-&kp F1      &kp F2        &kp F3        &kp F4        &kp F5         &kp F6                                                &kp F7     &kp F8    &kp F9    &kp F10   &kp F11   &kp F12
-&trans      &trans        &trans        &trans        &trans         &trans                                                &kp CARET  &kp AMPS  &kp STAR  &kp PIPE  &kp PLUS  &kp GRAVE
-&trans      &trans        &trans        &trans        &trans         &ext_power EP_TOG  &kp LEFT_BRACE    &kp RIGHT_BRACE  &trans     &trans    &trans    &trans    &trans    &trans
-                                        &trans        &kp BACKSPACE  &trans             &trans            &trans           &trans     &trans    &trans
+&bt BT_CLR     &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                                          &trans     &trans    &trans    &trans    &trans    &trans
+&kp F1         &kp F2        &kp F3        &kp F4        &kp F5        &kp F6                                                &kp F7     &kp F8    &kp F9    &kp F10   &kp F11   &kp F12
+&trans         &trans        &trans        &trans        &trans        &trans                                                &kp CARET  &kp AMPS  &kp STAR  &kp PIPE  &kp PLUS  &kp GRAVE
+&kp BACKSPACE  &trans        &trans        &trans        &trans        &ext_power EP_TOG  &kp LEFT_BRACE    &kp RIGHT_BRACE  &trans     &trans    &trans    &trans    &trans    &trans
+                                           &trans        &trans        &trans             &trans            &trans           &trans     &trans    &trans
             >;
         };
 
