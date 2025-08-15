@@ -14,12 +14,12 @@
         compatible = "zmk,combos";
 
         toggle_qwerty {
-            bindings = <&tog 3>;
+            bindings = <&to 3>;
             key-positions = <0 11>;
         };
 
         toggle_colemak {
-            bindings = <&tog 4>;
+            bindings = <&to 4>;
             key-positions = <36 49>;
         };
     };
@@ -96,6 +96,20 @@
 &kp LGUI   &kp Z   &kp X   &kp C     &kp D      &kp V   &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp K   &kp H     &kp COMMA   &kp DOT  &kp FSLH       &kp BSLH
                            &kp LALT  &kp LCTRL  &mo 1   &kp SPACE               &kp RET                &mo 2   &kp BSPC  &kp DELETE
             >;
+        };
+    };
+
+    conditional_layers {
+        compatible = "zmk,conditional-layers";
+
+        enableLowerWhenColemakIsActive {
+            if-layers = <4>;
+            then-layer = <1>;
+        };
+
+        enableRaiseWhenColemakIsActive {
+            if-layers = <4>;
+            then-layer = <2>;
         };
     };
 };
