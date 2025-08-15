@@ -90,11 +90,11 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&trans  &trans        &trans        &trans        &trans        &trans                                         &trans          &trans           &trans        &trans        &trans        &trans
-&trans  &trans        &trans        &trans        &trans        &trans                                         &kp DOWN_ARROW  &kp LEFT_ARROW   &trans        &trans        &trans        &trans
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                                         &kp NUMBER_6    &kp NUMBER_7     &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp GRAVE
-&trans  &trans        &trans        &trans        &trans        &trans  &kp LEFT_BRACKET    &kp RIGHT_BRACKET  &kp UP_ARROW    &kp RIGHT_ARROW  &trans        &trans        &trans        &trans
-                                    &trans        &trans        &trans  &trans              &trans             &trans          &trans           &trans
+&trans              &trans        &trans        &trans              &trans        &trans                                         &trans          &trans           &trans        &trans        &trans        &trans
+&trans              &trans        &trans        &trans              &trans        &trans                                         &kp DOWN_ARROW  &kp LEFT_ARROW   &trans        &trans        &trans        &trans
+&trans              &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3        &kp NUMBER_4  &kp N5                                         &kp NUMBER_6    &kp NUMBER_7     &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp GRAVE
+&kp LC(LEFT_SHIFT)  &trans        &trans        &trans              &trans        &trans  &kp LEFT_BRACKET    &kp RIGHT_BRACKET  &kp UP_ARROW    &kp RIGHT_ARROW  &trans        &trans        &trans        &trans
+                                                &kp LA(LEFT_SHIFT)  &trans        &trans  &trans              &trans             &trans          &trans           &trans
             >;
         };
     };
