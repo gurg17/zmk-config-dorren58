@@ -15,12 +15,17 @@
 
         toggle_qwerty {
             bindings = <&tog 1>;
-            key-positions = <0 11>;
+            key-positions = <11 6>;
         };
 
         toggle_colemak {
             bindings = <&tog 2>;
-            key-positions = <36 49>;
+            key-positions = <49 44>;
+        };
+
+        toggle_bluetooth {
+            bindings = <&tog 4>;
+            key-positions = <0 5>;
         };
     };
 
@@ -56,11 +61,11 @@
 
         ColemakDH-mac {
             bindings = <
-&kp ESC    &kp N1  &kp N2  &kp N3    &kp N4     &kp N5                                                 &kp N6  &kp N7    &kp N8      &kp N9   &kp N0         &kp MINUS
-&kp TAB    &kp Q   &kp W   &kp F     &kp P      &kp B                                                  &kp J   &kp L     &kp U       &kp Y    &kp SEMICOLON  &kp BACKSLASH
-&kp LSHFT  &kp A   &kp R   &kp S     &kp T      &kp G                                                  &kp M   &kp N     &kp E       &kp I    &kp O          &kp SQT
-&kp LGUI   &kp Z   &kp X   &kp C     &kp D      &kp V   &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp K   &kp H     &kp COMMA   &kp DOT  &kp FSLH       &kp EQUAL
-                           &kp LALT  &kp LCTRL  &mo 3   &kp SPACE               &kp RET                &mo 4   &kp BSPC  &kp DELETE
+&kp ESC    &kp N1       &kp N2       &kp N3       &kp N4       &kp N5                                                      &kp N6       &kp N7       &kp N8               &kp N9           &kp N0                       &kp MINUS
+&kp TAB    &mt LS(Q) Q  &mt LS(W) W  &mt LS(F) F  &mt LS(P) P  &mt LS(B) B                                                 &mt LS(J) J  &mt LS(L) L  &mt LS(U) U          &mt LS(Y) Y      &mt LS(SEMICOLON) SEMICOLON  &mt LS(BSLH) BSLH
+&kp LSHFT  &mt LS(A) A  &mt LS(R) R  &mt LS(S) S  &mt LS(T) T  &mt LS(G) G                                                 &mt LS(M) M  &mt LS(N) N  &mt LS(E) E          &mt LS(I) I      &mt LS(O) O                  &mt LS(SQT) SQT
+&kp LGUI   &mt LS(Z) Z  &mt LS(X) X  &mt LS(C) C  &mt LS(D) D  &mt LS(V) V  &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &mt LS(K) K  &mt LS(H) H  &mt LS(COMMA) COMMA  &mt LS(DOT) DOT  &mt LS(FSLH) FSLH            &mt LS(EQUAL) EQUAL
+                                     &kp LALT     &kp LCTRL    &mo 3        &kp SPACE               &kp RET                &mo 4        &kp BSPC     &kp DELETE
             >;
         };
 
@@ -73,11 +78,11 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&bt BT_CLR     &bt BT_SEL 0     &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                                          &trans     &trans    &trans    &trans    &trans    &trans
-&kp F1         &kp F2           &kp F3        &kp F4        &kp F5        &kp F6                                                &kp F7     &kp F8    &kp F9    &kp F10   &kp F11   &kp F12
-&kp TILDE      &kp EXCLAMATION  &kp AT_SIGN   &kp HASH      &kp DOLLAR    &kp PERCENT                                           &kp CARET  &kp AMPS  &kp STAR  &kp PIPE  &kp PLUS  &kp UNDER
-&kp BACKSPACE  &trans           &trans        &trans        &trans        &ext_power EP_TOG  &kp LEFT_BRACE    &kp RIGHT_BRACE  &trans     &trans    &trans    &trans    &trans    &kp DELETE
-                                              &trans        &trans        &trans             &trans            &trans           &trans     &trans    &trans
+&kp F1         &kp F2           &kp F3       &kp F4    &kp F5      &kp F6                                          &kp F7     &kp F8    &kp F9    &kp F10    &kp F11    &kp F12
+&trans         &trans           &trans       &trans    &trans      &trans                                          &trans     &trans    &trans    &trans     &trans     &trans
+&kp TILDE      &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT                                     &kp CARET  &kp AMPS  &kp STAR  &kp GRAVE  &kp GLOBE  &kp UNDER
+&kp BACKSPACE  &trans           &trans       &trans    &trans      &trans       &kp LEFT_BRACE    &kp RIGHT_BRACE  &trans     &trans    &trans    &trans     &trans     &kp DELETE
+                                             &trans    &trans      &trans       &trans            &trans           &trans     &trans    &trans
             >;
         };
 
@@ -90,11 +95,21 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&trans              &trans        &trans        &trans              &trans        &trans                                         &trans          &trans           &trans        &trans        &trans        &trans
-&trans              &trans        &trans        &trans              &trans        &trans                                         &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans        &trans        &trans        &trans
-&trans              &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3        &kp NUMBER_4  &kp N5                                         &kp NUMBER_6    &kp NUMBER_7     &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp GRAVE
-&kp LC(LEFT_SHIFT)  &trans        &trans        &trans              &trans        &trans  &kp LEFT_BRACKET    &kp RIGHT_BRACKET  &kp UP_ARROW    &kp LEFT_ARROW   &trans        &trans        &trans        &trans
-                                                &kp LA(LEFT_SHIFT)  &trans        &trans  &trans              &trans             &trans          &trans           &trans
+&trans  &trans        &trans        &trans        &trans        &trans                                         &trans          &trans           &trans        &trans        &trans        &trans
+&trans  &trans        &trans        &trans        &trans        &trans                                         &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans        &trans        &trans        &trans
+&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                                         &kp NUMBER_6    &kp NUMBER_7     &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &trans
+&trans  &trans        &trans        &trans        &trans        &trans  &kp LEFT_BRACKET    &kp RIGHT_BRACKET  &kp UP_ARROW    &kp LEFT_ARROW   &trans        &trans        &trans        &trans
+                                    &trans        &trans        &trans  &trans              &trans             &trans          &trans           &trans
+            >;
+        };
+
+        BLUETOOTH {
+            bindings = <
+&trans      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &trans                               &trans  &trans  &trans  &trans  &trans  &trans
+&trans      &trans        &trans        &trans        &trans        &trans                               &trans  &trans  &trans  &trans  &trans  &trans
+&trans      &trans        &trans        &trans        &trans        &trans                               &trans  &trans  &trans  &trans  &trans  &trans
+&bt BT_CLR  &trans        &trans        &trans        &trans        &ext_power EP_TOG  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                                        &trans        &trans        &trans             &trans    &trans  &trans  &trans  &trans
             >;
         };
     };
