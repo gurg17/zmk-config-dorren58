@@ -24,7 +24,7 @@
         };
 
         toggle_bluetooth {
-            bindings = <&tog 4>;
+            bindings = <&tog 5>;
             key-positions = <0 5>;
         };
     };
