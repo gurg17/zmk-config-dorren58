@@ -41,31 +41,31 @@
             //                     | ALT  | GUI  | LOWER|  SPACE |  | ENTER | RAISE| BSPC  | GUI   |
 
             bindings = <
-&kp ESC         &kp N1  &kp N2  &kp N3    &kp N4        &kp N5                                                 &kp N6  &kp N7    &kp N8      &kp N9   &kp N0    &kp MINUS
-&kp TAB         &kp Q   &kp W   &kp E     &kp R         &kp T                                                  &kp Y   &kp U     &kp I       &kp O    &kp P     &kp BACKSLASH
-&kp LEFT_SHIFT  &kp A   &kp S   &kp D     &kp F         &kp G                                                  &kp H   &kp J     &kp K       &kp L    &kp SEMI  &kp SQT
-&kp LCTRL       &kp Z   &kp X   &kp C     &kp V         &kp B   &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp N   &kp M     &kp COMMA   &kp DOT  &kp FSLH  &kp EQUAL
-                                &kp LALT  &kp LEFT_WIN  &mo 3   &kp SPACE               &kp RET                &mo 4   &kp BSPC  &kp DELETE
+&kp ESC         &kp N1  &kp N2  &kp N3        &kp N4        &kp N5                                                 &kp N6  &kp N7    &kp N8      &kp N9   &kp N0    &kp MINUS
+&kp TAB         &kp Q   &kp W   &kp E         &kp R         &kp T                                                  &kp Y   &kp U     &kp I       &kp O    &kp P     &kp BACKSLASH
+&kp LEFT_SHIFT  &kp A   &kp S   &kp D         &kp F         &kp G                                                  &kp H   &kp J     &kp K       &kp L    &kp SEMI  &kp SQT
+&kp LCTRL       &kp Z   &kp X   &kp C         &kp V         &kp B   &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp N   &kp M     &kp COMMA   &kp DOT  &kp FSLH  &kp EQUAL
+                                &kp LEFT_WIN  &kp LEFT_ALT  &mo 3   &kp SPACE               &kp RET                &mo 4   &kp BSPC  &kp DELETE
             >;
         };
 
         MacOS {
             bindings = <
-&kp ESC    &kp N1  &kp N2  &kp N3    &kp N4     &kp N5                                                 &kp N6  &kp N7    &kp N8      &kp N9   &kp N0    &kp MINUS
-&kp TAB    &kp Q   &kp W   &kp E     &kp R      &kp T                                                  &kp Y   &kp U     &kp I       &kp O    &kp P     &kp BACKSLASH
-&kp LSHFT  &kp A   &kp S   &kp D     &kp F      &kp G                                                  &kp H   &kp J     &kp K       &kp L    &kp SEMI  &kp SQT
-&kp LGUI   &kp Z   &kp X   &kp C     &kp V      &kp B   &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp N   &kp M     &kp COMMA   &kp DOT  &kp FSLH  &kp EQUAL
-                           &kp LALT  &kp LCTRL  &mo 3   &kp SPACE               &kp RET                &mo 4   &kp BSPC  &kp DELETE
+&kp ESC    &kp N1  &kp N2  &kp N3     &kp N4        &kp N5                                                 &kp N6  &kp N7    &kp N8      &kp N9   &kp N0    &kp MINUS
+&kp TAB    &kp Q   &kp W   &kp E      &kp R         &kp T                                                  &kp Y   &kp U     &kp I       &kp O    &kp P     &kp BACKSLASH
+&kp LSHFT  &kp A   &kp S   &kp D      &kp F         &kp G                                                  &kp H   &kp J     &kp K       &kp L    &kp SEMI  &kp SQT
+&kp LGUI   &kp Z   &kp X   &kp C      &kp V         &kp B   &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp N   &kp M     &kp COMMA   &kp DOT  &kp FSLH  &kp EQUAL
+                           &kp LCTRL  &kp LEFT_ALT  &mo 3   &kp SPACE               &kp RET                &mo 4   &kp BSPC  &kp DELETE
             >;
         };
 
         ColemakDH-mac {
             bindings = <
-&kp ESC    &kp N1       &kp N2       &kp N3       &kp N4       &kp N5                                                      &kp N6       &kp N7       &kp N8               &kp N9           &kp N0                       &kp MINUS
-&kp TAB    &mt LS(Q) Q  &mt LS(W) W  &mt LS(F) F  &mt LS(P) P  &mt LS(B) B                                                 &mt LS(J) J  &mt LS(L) L  &mt LS(U) U          &mt LS(Y) Y      &mt LS(SEMICOLON) SEMICOLON  &mt LS(BSLH) BSLH
-&kp LSHFT  &mt LS(A) A  &mt LS(R) R  &mt LS(S) S  &mt LS(T) T  &mt LS(G) G                                                 &mt LS(M) M  &mt LS(N) N  &mt LS(E) E          &mt LS(I) I      &mt LS(O) O                  &mt LS(SQT) SQT
-&kp LGUI   &mt LS(Z) Z  &mt LS(X) X  &mt LS(C) C  &mt LS(D) D  &mt LS(V) V  &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &mt LS(K) K  &mt LS(H) H  &mt LS(COMMA) COMMA  &mt LS(DOT) DOT  &mt LS(FSLH) FSLH            &mt LS(EQUAL) EQUAL
-                                     &kp LALT     &kp LCTRL    &mo 3        &kp SPACE               &kp RET                &mo 4        &kp BSPC     &kp DELETE
+&kp ESC    &kp N1       &kp N2       &kp N3       &kp N4        &kp N5                                              &kp N6       &kp N7       &kp N8               &kp N9           &kp N0                       &kp MINUS
+&kp TAB    &mt LS(Q) Q  &mt LS(W) W  &mt LS(F) F  &mt LS(P) P   &mt LS(B) B                                         &mt LS(J) J  &mt LS(L) L  &mt LS(U) U          &mt LS(Y) Y      &mt LS(SEMICOLON) SEMICOLON  &mt LS(BSLH) BSLH
+&kp LSHFT  &mt LS(A) A  &mt LS(R) R  &mt LS(S) S  &mt LS(T) T   &mt LS(G) G                                         &mt LS(M) M  &mt LS(N) N  &mt LS(E) E          &mt LS(I) I      &mt LS(O) O                  &mt LS(SQT) SQT
+&kp LGUI   &mt LS(Z) Z  &mt LS(X) X  &mt LS(C) C  &mt LS(D) D   &mt LS(V) V  &kp LEFT_BRACKET    &kp RIGHT_BRACKET  &mt LS(K) K  &mt LS(H) H  &mt LS(COMMA) COMMA  &mt LS(DOT) DOT  &mt LS(FSLH) FSLH            &mt LS(EQUAL) EQUAL
+                                     &kp LCTRL    &kp LEFT_ALT  &mo 3        &kp SPACE           &kp RET            &mo 4        &kp BSPC     &kp DELETE
             >;
         };
 
@@ -95,11 +95,11 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&trans  &trans        &trans        &trans        &trans        &trans                                         &trans          &trans           &trans        &trans        &trans        &trans
-&trans  &trans        &trans        &trans        &trans        &trans                                         &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans        &trans        &trans        &trans
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                                         &kp NUMBER_6    &kp NUMBER_7     &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &trans
-&trans  &trans        &trans        &trans        &trans        &trans  &kp LEFT_BRACKET    &kp RIGHT_BRACKET  &kp UP_ARROW    &kp LEFT_ARROW   &trans        &trans        &trans        &trans
-                                    &trans        &trans        &trans  &trans              &trans             &trans          &trans           &trans
+&trans  &trans        &trans        &trans        &trans        &trans                                                 &trans          &trans           &trans        &trans        &trans        &trans
+&trans  &trans        &trans        &trans        &trans        &trans                                                 &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans        &trans        &trans        &trans
+&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                                                 &kp NUMBER_6    &kp NUMBER_7     &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &trans
+&trans  &trans        &trans        &trans        &trans        &trans  &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp UP_ARROW    &kp LEFT_ARROW   &trans        &trans        &trans        &trans
+                                    &trans        &trans        &trans  &trans                  &trans                 &trans          &trans           &trans
             >;
         };
 
