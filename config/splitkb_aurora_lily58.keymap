@@ -61,11 +61,11 @@
 
         ColemakDH-mac {
             bindings = <
-&kp ESC    &kp N1       &kp N2       &kp N3       &kp N4        &kp N5                                              &kp N6       &kp N7       &kp N8               &kp N9           &kp N0                       &kp MINUS
-&kp TAB    &mt LS(Q) Q  &mt LS(W) W  &mt LS(F) F  &mt LS(P) P   &mt LS(B) B                                         &mt LS(J) J  &mt LS(L) L  &mt LS(U) U          &mt LS(Y) Y      &mt LS(SEMICOLON) SEMICOLON  &mt LS(BSLH) BSLH
-&kp LSHFT  &mt LS(A) A  &mt LS(R) R  &mt LS(S) S  &mt LS(T) T   &mt LS(G) G                                         &mt LS(M) M  &mt LS(N) N  &mt LS(E) E          &mt LS(I) I      &mt LS(O) O                  &mt LS(SQT) SQT
-&kp LGUI   &mt LS(Z) Z  &mt LS(X) X  &mt LS(C) C  &mt LS(D) D   &mt LS(V) V  &kp LEFT_BRACKET    &kp RIGHT_BRACKET  &mt LS(K) K  &mt LS(H) H  &mt LS(COMMA) COMMA  &mt LS(DOT) DOT  &mt LS(FSLH) FSLH            &mt LS(EQUAL) EQUAL
-                                     &kp LCTRL    &kp LEFT_ALT  &mo 3        &kp SPACE           &kp RET            &mo 4        &kp BSPC     &kp DELETE
+&kp ESC    &kp N1  &kp N2  &kp N3     &kp N4        &kp N5                                         &kp N6  &kp N7    &kp N8      &kp N9   &kp N0    &kp MINUS
+&kp TAB    &kp Q   &kp W   &kp F      &kp P         &kp B                                          &kp J   &kp L     &kp U       &kp Y    &kp SEMI  &kp BSLH
+&sk LSHFT  &kp A   &kp R   &kp S      &kp T         &kp G                                          &kp M   &kp N     &kp E       &kp I    &kp O     &kp SQT
+&kp LGUI   &kp Z   &kp X   &kp C      &kp D         &kp V   &kp LEFT_BRACKET    &kp RIGHT_BRACKET  &kp K   &kp H     &kp COMMA   &kp DOT  &kp FSLH  &kp EQUAL
+                           &kp LCTRL  &kp LEFT_ALT  &mo 3   &kp SPACE           &kp RET            &mo 4   &kp BSPC  &kp DELETE
             >;
         };
 
